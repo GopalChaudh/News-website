@@ -1,0 +1,2 @@
+API server = https://newsapi.org/v2/everything?q=keyword&apiKey=e7e26b8d500f4004974c4f9e69b778d3
+

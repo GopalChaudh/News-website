@@ -1,0 +1,61 @@
+body {
+    overflow: hidden;
+
+}
+
+.news-container {
+    width: 100vw;
+    background-color: rgba(248, 188, 248, 0.29);
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    /* display: grid; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.news {
+    cursor: pointer;
+    display: inline-flex;
+    text-align: center;
+    background-color: white;
+    border: 1px solid;
+    margin-top: 2rem;
+    width: 60vh;
+    height: 60vh;
+   margin-left: 2.5rem;
+   transition: 1s ;
+    overflow: hidden;
+
+
+}
+.news:hover{
+    background: linear-gradient(rgba(0, 204, 255, 0.533),rgba(232, 252, 3, 0.538));
+}
+.container {
+    overflow: hidden;
+    width: 90%;
+}
+
+.news-image {
+    width: 80%;
+    height: 20vh;
+    padding: 1rem;
+}
+
+.headline {
+    margin-left: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 90%;
+    height: 3.5rem;
+    overflow: hidden;
+}
+
+.discription {
+    height: 4.5rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+
+}
